@@ -40,7 +40,7 @@ HTML_TEMPLATE = '''
             </div>
         {% endif %}
     {% endwith %}
-    {{content|safe}}
+    {{content}}
 </body>
 </html>
 '''
